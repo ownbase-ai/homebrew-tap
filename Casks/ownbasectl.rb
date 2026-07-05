@@ -4,22 +4,22 @@ cask "ownbasectl" do
 
   on_macos do
     on_intel do
-      sha256 "7184e8faca469930568e056ad7c6e488fc7b2d533748aecde1ece09b37f7d543"
+      sha256 "2f26e3da75242591e2a4a16806472a6415c55a8b6a4b047c4fa9dac63e74dff7"
       url "https://github.com/ownbase-ai/ownbase/releases/download/v#{version}/ownbasectl_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "51dfbd35ac9e5247e79c8aa7211022703a2ce2f2018183f60e0621b29a97839d"
+      sha256 "be4d9630d39a9aea8958e29a07bc6d10dac041e9069e458ca86688db8c2291e8"
       url "https://github.com/ownbase-ai/ownbase/releases/download/v#{version}/ownbasectl_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "5a253f1c6b08e093d73e6da277f6e0d0f87aa2b3ce854b5060f1bef31ab5f21d"
+      sha256 "18c5aacc73f1c292033430148cce711960ba2384bf5669c445463028c44e7604"
       url "https://github.com/ownbase-ai/ownbase/releases/download/v#{version}/ownbasectl_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "4e2382c79ca1160e8343486243d9cb800e565d813fad657b14b60d59d2b16fab"
+      sha256 "62b830a5b044ce1a67ec3d17bdd4b08b82b552893abc77ed3ef6a51e72ba0fd2"
       url "https://github.com/ownbase-ai/ownbase/releases/download/v#{version}/ownbasectl_#{version}_linux_arm64.tar.gz"
     end
   end
