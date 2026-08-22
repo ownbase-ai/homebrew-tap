@@ -4,11 +4,11 @@ cask "ownbase" do
 
   on_macos do
     on_intel do
-      sha256 "adf19c12a268f52d982df67e99e306000410050e3d476ebbae56e2f62251cdc3"
+      sha256 "d33a8c9c7cc74afd74b898092d995c7b0de40028da0ced9a702e33f5f240e10b"
       url "https://github.com/ownbase-ai/ownbase/releases/download/v#{version}/OwnBase-v#{version}-x86_64-apple-darwin.dmg"
     end
     on_arm do
-      sha256 "0515abd6194c189e2c136aa0dca003e94917111d6b6b074c77c8ff6a6cae6311"
+      sha256 "f83c5aa490f0240c4d04f4f4e84af0c96939f3bde72d04e86a632c6ada381741"
       url "https://github.com/ownbase-ai/ownbase/releases/download/v#{version}/OwnBase-v#{version}-aarch64-apple-darwin.dmg"
     end
   end
